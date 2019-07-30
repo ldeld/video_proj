@@ -1,0 +1,41 @@
+<h1 class="active">
+  Tapez un chiffre dans le clavier numérique pour visionner une vidéo
+</h1>
+
+<video src="sources/beach.webm" id="beach"></video>
+<video src="sources/carnac.webm" id="carnac"></video>
+<video src="sources/hurricane.webm" id="hurricane"></video>
+<video src="sources/underwater.webm" id="underwater"></video>
+
+
+<style>
+  body {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex
+  }
+
+  .active {
+    display: block;
+  }
+
+  h1 {
+    display: none;
+    vertical-align: center;
+  }
+
+  video {
+    transition: all 0.3s ease;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+</style>
+<script src="app.js"></script>
+
